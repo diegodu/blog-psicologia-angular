@@ -1,0 +1,21 @@
+
+body{
+  background-color: white;
+ background-image: url(../../../assets/img/pexels-veerendra-4018960.jpg);
+
+  background-size: 100% 100% ;
+
+}
+
+
+.jumbotron{
+  background-color: white;
+}
+.container{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+}

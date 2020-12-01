@@ -1,0 +1,102 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.Encabezado{
+  height: 100%px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.estiloVar{
+  font-family: fantasy;
+  font: oblique bold 120% cursive;
+
+}
+.marg{
+  margin-right: 15%;
+  margin-left: 15%;
+
+}
+
+
+body{
+  background-color: white;
+ background-image: url(../../../assets/img/pexels-veerendra-4018960.jpg);
+ background-attachment: fixed;
+  background-size: 100% 100% ;
+
+}
+#cuerpo{
+  background-color: white;
+
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+.alinearCu{
+  text-align: center;
+}
+
+.alinearLis{
+  padding-top: 0%;
+
+}
+
+.colorSub{
+  color: white;
+}
+
+h1{
+  color: white;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+.h6{
+  color: white;
+}
+
+#position{
+  margin-top: 20%;;
+}
+
+#titulo{
+  font-family: fantasy;
+  font-weight: bolder;
+  position: initial;
+  font-size: 50px;
+  letter-spacing: 20px;
+}
+
+
+.informacion{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding-top: 50px;
+
+}
+.jumbotron{
+  background-color: white;
+}
+
+
+footer{
+  background-color: white;
+  padding: 40px;
+  color: white;
+
+  justify-content: center;
+  align-items: center;
+}
+
+

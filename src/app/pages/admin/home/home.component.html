@@ -1,0 +1,71 @@
+<div class="admin">
+  <div class="contenido">
+    <h1>PAGINA PRINCIPAL</h1>
+    <mat-form-field  style="font-size: 20px; justify-content: center; align-items: center;" class="example-full-width shadow">
+      <mat-label>Ingresar titulo</mat-label>
+      <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+    </mat-form-field>
+
+
+    <div class="shadow img-principal">
+      <mat-label>Agregar imagen principal</mat-label>
+        <div class="card card-user">
+          <div  class="content">
+              <div  class=" text-center">
+                <br>
+                  <figure>
+                      <img class="img-company-modal"
+                          src="../../../assets/img/102291825_590345768252505_2729692350740692992_n.jpg">
+
+                  </figure>
+                  <br>
+                  <input id=id type="file" class="form-control" name="url"
+                      accept="image/*" (change)="onChangeImage($event)">
+                  <input type="hidden" class="form-control" name="url" id="url"
+                      placeholder="Imagen de la categoría"
+                     required pattern="">
+
+          </div>
+
+
+
+
+
+  </div>
+
+  <div class="part2 shadow">
+    <h3>INTRODUCCION</h3>
+
+  <div class="introduccion ">
+
+    <mat-form-field style="width: 50%;" class="example-full-width shadow">
+      <mat-label>Ingresar introduccion</mat-label>
+      <textarea rows="30%" cols="70%" matInput  placeholder="Agregar introduccion"></textarea>
+    </mat-form-field>
+
+
+    <div style="width: 50%;" class="shadow img-principal">
+      <mat-label>Agregar imagen principal</mat-label>
+        <div style="width: 100%;" class="card card-user">
+          <div style="width: 100%;"  class="content">
+              <div style="width: 100%;" class=" text-center">
+                <br>
+                  <figure>
+                      <img style="width: 100%;" class="img-company-modal"
+                          src="../../../assets/img/102291825_590345768252505_2729692350740692992_n.jpg">
+
+                  </figure>
+                  <br>
+                  <input id=id type="file" class="form-control" name="url"
+                      accept="image/*" (change)="onChangeImage($event)">
+                  <input type="hidden" class="form-control" name="url" id="url"
+                      placeholder="Imagen de la categoría"
+                     required pattern="">
+
+          </div>
+
+  </div>
+</div>
+
+
+</div>

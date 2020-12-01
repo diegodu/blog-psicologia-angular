@@ -1,0 +1,162 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+
+.Encabezado{
+  height: 530px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url(../../assets/img/26711344-el-liderazgo-comunitario-concepto-de-negocio-como-un-mejor-símbolo-líder-con-un-grupo-de-personas-conect.jpg);
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.marg{
+  margin-right: 15%;
+  margin-left: 15%;
+
+}
+.margT{
+  text-align: center;
+  padding-top: 10%;
+
+}
+
+.titulo{
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 45px;
+  letter-spacing: 3px;
+  color: white;
+}
+#cuerpo{
+  background-color: rgba(255, 255, 255, 0.137);
+  padding-top: 40px;
+  margin: auto;
+  padding-left: 0%;
+  padding-right: 0%;
+  text-align: center;
+}
+.alinearCu{
+  text-align: center;
+}
+
+.alinearLis{
+  padding-top: 0%;
+  background-color:black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.5;
+
+
+}
+
+.colorSub{
+  color: white;
+}
+.estiloVar{
+  font-family: fantasy;
+  font: oblique bold 120% cursive;
+
+}
+.posicion{
+  background-color: black;
+
+}
+
+.posicionBoto{
+  position: fixed;
+  top:  50px;
+  right: 0px;
+
+
+}
+.boton-menu:hover{
+  transform: scale(1.2);
+
+
+}
+
+
+/*About us*/
+.contenedor-sobre-nosotros{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  background-color: white;
+
+}
+.imagen-about-us{
+  width: 40%;
+  height: 300px;
+
+}
+.sobre-nosotros .contenido-textos{
+  width: 48%;
+}
+
+
+.contenido-textos p{
+  padding: 0px 0px 30px 15px;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: serif;
+
+}
+
+hr {
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+  margin: 20px;
+}
+p{
+
+   border-radius: 10px 10px;
+}
+
+.cuerpoCars{
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+
+
+}
+.tarjetas{
+  margin: 3%;
+  justify-content: left;
+
+}
+.tarjetas:hover{
+  transform: scale(1.1);
+}
+.card-body{
+  padding: 5px;
+}
+.card-body h5{
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+.card-body p{
+  text-align: justify;
+}
+.btn{
+  margin-top: 10px;
+  padding: 5px;
+
+
+}

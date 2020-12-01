@@ -1,0 +1,44 @@
+<section class="card" >
+
+  <form >
+    <h3>INICIO</h3>
+
+    <mat-form-field  class="example-full-width shadow">
+      <mat-label>Ingresar titulo</mat-label>
+      <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+    </mat-form-field>
+
+    <div style="width: 60%;" class="shadow img-principal">
+      <mat-label>Agregar imagen principal</mat-label>
+        <div style="width: 100%;" class="card card-user">
+          <div style="width: 100%;" class="content">
+              <div style="width: 100%;" class=" text-center">
+                <br>
+                  <figure>
+                      <img class="img-company-modal"
+                          src="../../../../assets/img/102291825_590345768252505_2729692350740692992_n.jpg">
+
+                  </figure>
+                  <br>
+                  <input id=id type="file" class="form-control" name="url"
+                      accept="image/*" (change)="onChangeImage($event)">
+                  <input type="hidden" class="form-control" name="url" id="url"
+                      placeholder="Imagen de la categoría"
+                     required pattern="">
+
+          </div>
+            <!-- <div class="author">
+              <a href="#">
+                <img class="avatars" src="../../assets/img/galeria.png" width="50%" alt="..." />
+              </a>
+            </div> -->
+          </div>
+          <hr>
+        </div>
+
+    </div>
+
+
+  </form>
+
+</section>

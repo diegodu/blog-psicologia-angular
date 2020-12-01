@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "blog-psicologia": {
+      "hosting": {
+        "blog-psicologia": [
+          "blog-psicologia"
+        ]
+      }
+    }
+  }
+}

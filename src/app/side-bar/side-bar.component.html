@@ -1,0 +1,28 @@
+<mat-drawer-container class="drawer-container" autosize>
+
+  <!--Componente del sidebar-->
+  <mat-drawer #drawer class="admin-sidenav" mode="side">
+      <a mat-button routerLink="/sideBar">Dashboard</a>
+      <button (click)="createComponent()">Crear blog</button>
+      <div class="dash-menu">
+          <a mat-button [routerLink]="['/sideBar/home']">HOME</a>
+          <a mat-button [routerLink]="['/sideBar/page1']">Blog</a>
+          <ng-template mat-stroked-button color="primary" appDynamicHost></ng-template>
+      </div>
+
+  </mat-drawer>
+
+
+  <!--Componente principal-->
+  <div class="example-sidenav-content">
+      <button type="button" mat-button (click)="drawer.toggle()">
+      Toggle sidenav
+    </button>
+  </div>
+
+  <app-home></app-home>
+
+  <!--Componente del sidebar secundario-->
+
+
+</mat-drawer-container>
