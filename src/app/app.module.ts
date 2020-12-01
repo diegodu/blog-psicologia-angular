@@ -29,7 +29,6 @@ import { MenuBlogsComponent } from './pages/dinamico/menu-blogs/menu-blogs.compo
     Page3Component,
     AboutComponent,
     DynamicHostDirective,
-    BlogDinamicoComponent,
     SideBarComponent,
     HomeComponent,
 
