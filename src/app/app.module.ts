@@ -31,6 +31,7 @@ import { MenuBlogsComponent } from './pages/dinamico/menu-blogs/menu-blogs.compo
     DynamicHostDirective,
     SideBarComponent,
     HomeComponent,
+    BlogDinamicoComponent,
 
 
 
