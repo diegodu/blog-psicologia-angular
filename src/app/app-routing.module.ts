@@ -25,9 +25,10 @@ const routes: Routes = [
   {
     path: "sideBar", component: SideBarComponent,
     children: [
+      {path: "", component: HomeComponent},
       {path: "home", component: HomeComponent},
-      {path: "page1", loadChildren: '../app/pages/page1/',
-    },
+      {path: "page1", component: Page1Component
+    }
     ]
   }
 

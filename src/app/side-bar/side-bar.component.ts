@@ -108,34 +108,7 @@ export class SideBarComponent implements OnInit {
 
   ngOnInit(): void {
 
-    var $sidebar = $('.sidebar-wrapper');
-    var $bgLogo = $('.bgLogo');
-    $sidebar.css('background-color','#000000');
-    $bgLogo.css('background-color','#000000');
 
-
-    this.infoUser = JSON.parse(localStorage.getItem('infoUser'));
-
-    if (this.infoUser.login_type == 0) {
-        this.menuItems = ROUTESADMIN.filter(menuItem => menuItem);
-    } else {
-        this.menuItems = ROUTES.filter(menuItem => menuItem);
-    }
-
-    var isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
-    // this.menuItems = ROUTES.filter(menuItem => menuItem);
-
-    isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
-    var $sidebar = $('.sidebar');
-    $sidebar.css('background-color', 'green');
-
-    if (isWindows) {
-        // if we are on windows OS we activate the perfectScrollbar function
-        $('.sidebar .sidebar-wrapper, .main-panel').perfectScrollbar();
-        $('html').addClass('perfect-scrollbar-on');
-    } else {
-        $('html').addClass('perfect-scrollbar-off');
-    }
   }
 
   ngAfterViewInit() {
