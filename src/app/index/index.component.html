@@ -65,88 +65,25 @@
 
       </section>
 
+
       <hr>
       <section class="seccion-tarjetas">
         <div class="container-sm cuerpoCars">
 
-          <div class="card tarjetas shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img routerLink="/page1" class="card-img-top" src="../../assets/img/psicologia-2017_02_10_183334.jpg"
-              alt="Card image cap">
-            <div class="card-body text-left">
-              <h5 class="card-title font-weight-bold">Titulo de seccion</h5>
-              <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquid atque eius
-                debitis dignissimos vero ullam ab unde ut repellendus, accusantium deserunt nobis. Delectus, quo!
-                Provident, doloremque! Labore id expedita iure quibusdam soluta saepe consequuntur nam corrupti mollitia
-                eum vel sed molestiae, exercitationem minima adipisci ad asperiores sint dolorem quos.</p>
-              <a routerLink="/page1" class="btn btn-secondary">Leer Mas</a>
-            </div>
-          </div>
-
-          <div class="card tarjetas shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img class="card-img-top" src="../../assets/img/psicologia-2017_02_10_183334.jpg" alt="Card image cap">
-            <div class="card-body text-left ">
-              <h5 class="card-title font-weight-bold text-left">Titulo de seccion</h5>
-              <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquid atque eius
-                debitis dignissimos vero ullam ab unde ut repellendus, accusantium deserunt nobis. Delectus, quo!
-                Provident, doloremque! Labore id expedita iure quibusdam soluta saepe consequuntur nam corrupti mollitia
-                eum vel sed molestiae, exercitationem minima adipisci ad asperiores sint dolorem quos.</p>
-              <a href="#" class="btn btn-secondary">Leer Mas</a>
-            </div>
-          </div>
-
-          <div class="card tarjetas shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img class="card-img-top" src="../../assets/img/psicologia-2017_02_10_183334.jpg" alt="Card image cap">
-            <div class="card-body text-left">
-              <h5 class="card-title font-weight-bold">Titulo de seccion</h5>
-              <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquid atque eius
-                debitis dignissimos vero ullam ab unde ut repellendus, accusantium deserunt nobis. Delectus, quo!
-                Provident, doloremque! Labore id expedita iure quibusdam soluta saepe consequuntur nam corrupti mollitia
-                eum vel sed molestiae, exercitationem minima adipisci ad asperiores sint dolorem quos.</p>
-              <a href="#" class="btn btn-secondary">Leer Mas</a>
+          <div class="container-sm cuerpoCars" >
+            <div class="card tarjetas shadow p-3 mb-5 bg-white rounded" style="width: 18rem; "  *ngFor="let tarjeta of tarjetas" >
+              <img class="card-img-top" src="../../assets/img/102291825_590345768252505_2729692350740692992_n.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">{{tarjeta.imagenP}}</h5>
+                <p class="card-text">{{tarjeta.textoB}}</p>
+                <a style="padding: 5px;" href="#" class="btn btn-secondary">Leer Mas</a>
+              </div>
             </div>
           </div>
 
         </div>
 
-        <div class="container-sm cuerpoCars">
 
-          <div class="card tarjetas shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img class="card-img-top" src="../../assets/img/psicologia-2017_02_10_183334.jpg" alt="Card image cap">
-            <div class="card-body text-left">
-              <h5 class="card-title font-weight-bold">Titulo de seccion</h5>
-              <p class="card-text " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquid atque eius
-                debitis dignissimos vero ullam ab unde ut repellendus, accusantium deserunt nobis. Delectus, quo!
-                Provident, doloremque! Labore id expedita iure quibusdam soluta saepe consequuntur nam corrupti mollitia
-                eum vel sed molestiae, exercitationem minima adipisci ad asperiores sint dolorem quos.</p>
-              <a href="#" class="btn btn-secondary">Leer Mas</a>
-            </div>
-          </div>
-
-          <div class="card tarjetas shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img class="card-img-top" src="../../assets/img/psicologia-2017_02_10_183334.jpg" alt="Card image cap">
-            <div class="card-body text-left">
-              <h5 class="card-title font-weight-bold">Titulo de seccion</h5>
-              <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquid atque eius
-                debitis dignissimos vero ullam ab unde ut repellendus, accusantium deserunt nobis. Delectus, quo!
-                Provident, doloremque! Labore id expedita iure quibusdam soluta saepe consequuntur nam corrupti mollitia
-                eum vel sed molestiae, exercitationem minima adipisci ad asperiores sint dolorem quos.</p>
-              <a href="#" class="btn btn-secondary">Leer Mas</a>
-            </div>
-          </div>
-
-          <div class="card tarjetas shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img class="card-img-top" src="../../assets/img/psicologia-2017_02_10_183334.jpg" alt="Card image cap">
-            <div class="card-body text-left">
-              <h5 class="card-title font-weight-bold">Titulo de seccion</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquid atque eius
-                debitis dignissimos vero ullam ab unde ut repellendus, accusantium deserunt nobis. Delectus, quo!
-                Provident, doloremque! Labore id expedita iure quibusdam soluta saepe consequuntur nam corrupti mollitia
-                eum vel sed molestiae, exercitationem minima adipisci ad asperiores sint dolorem quos.</p>
-              <a href="#" class="btn btn-secondary">Leer Mas</a>
-            </div>
-          </div>
-
-        </div>
       </section>
 
 
